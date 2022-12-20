@@ -1,0 +1,2 @@
+Storage connectionstring
+DefaultEndpointsProtocol=https;AccountName=azurelstorage;AccountKey=e6P2yWo94C9wyQaH8XUHMUo3NDni+8NQ5tC0qC271sVmjbOhEOBDQfBp5UNtnTr0rqJytMjdRBIJ+AStri/x9g==;EndpointSuffix=core.windows.net
