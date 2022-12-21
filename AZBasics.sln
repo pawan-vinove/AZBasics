@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZBasicsWeb", "AZBasicsWeb\AZBasicsWeb.csproj", "{2D37C9D4-CBEC-4A91-BE7E-A49C2CD43D8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZFunctions", "AZFunctions\AZFunctions.csproj", "{A5AE8357-74D2-4112-9B33-B144A495D010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZFunctions", "AZFunctions\AZFunctions.csproj", "{A5AE8357-74D2-4112-9B33-B144A495D010}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFuncExample", "AzureFuncExample", "{5BB6D355-576E-4DC5-B2BD-4072F2C9B158}"
 EndProject

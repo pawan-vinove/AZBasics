@@ -43,5 +43,30 @@
                 <button type="submit" class="btn btn-success">Apply</button>
             </div>
         </div>
+
+      @*  <div class="row">
+            <h4>SalesRequest List</h4>
+            <hr />
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                </tr>
+                @foreach (SalesRequest saleRequest in Model)
+                {
+                    <tr>
+                        <td>@saleRequest.Id</td>
+                        <td>@saleRequest.Name</td>
+                        <td>@saleRequest.Email</td>
+                        <td>@saleRequest.Phone</td>
+                        <td>@saleRequest.Status</td>
+                    </tr>
+                }
+            </table>
+        </div>*@
+
     </div>
 </form>

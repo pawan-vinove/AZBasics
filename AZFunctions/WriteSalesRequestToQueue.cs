@@ -17,7 +17,7 @@ namespace AZFunctions
         [FunctionName("WriteSalesRequestToQueue")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
-            [Queue("salesrequestinboundtest",Connection = "AzureWebJobsStorage")] IAsyncCollector<SalesRequest>salesRequestQueue,
+            [Queue("salesrequestinbound",Connection = "AzureWebJobsStorage")] IAsyncCollector<SalesRequest>salesRequestQueue,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");         

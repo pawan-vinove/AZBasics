@@ -1,2 +1,9 @@
 Storage connectionstring
-DefaultEndpointsProtocol=https;AccountName=azurelstorage;AccountKey=e6P2yWo94C9wyQaH8XUHMUo3NDni+8NQ5tC0qC271sVmjbOhEOBDQfBp5UNtnTr0rqJytMjdRBIJ+AStri/x9g==;EndpointSuffix=core.windows.net
+DefaultEndpointsProtocol=https;AccountName=azurelstorage;AccountKey=e6P2yWo94C9wyQaH8XUHMUo3NDni+8NQ5tC0qC271sVmjbOhEOBDQfBp5UNtnTr0rqJytMjdRBIJ+AStri/x9g==;
+EndpointSuffix=core.windows.net
+
+
+password sql123$$az
+Server=tcp:azuresqlpk.database.windows.net,1433;Initial Catalog=azure-sql;Persist Security Info=False;User ID=azadmin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+AzureWebJobsStorage   salesrequestinbound

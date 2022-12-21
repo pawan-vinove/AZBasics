@@ -1,0 +1,18 @@
+create database [azure-sql]
+go
+use [azure-sql]
+go 
+select * from [SalesRequests]
+CREATE TABLE[dbo].[SalesRequests](
+
+   [Id][nvarchar](450) NOT NULL,
+
+  [Name] [nvarchar](max)NOT NULL,
+	[Email] [nvarchar](max)NOT NULL,
+	[Phone] [nvarchar](max)NOT NULL,
+	[Status] [nvarchar](max)NOT NULL,
+ CONSTRAINT[PK_SalesRequests] PRIMARY KEY CLUSTERED
+(
+
+   [Id] ASC
+))
